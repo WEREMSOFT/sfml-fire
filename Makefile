@@ -14,6 +14,6 @@ all: $(OBJ)
 clean:
 	rm -rf $(TARGET) $(OBJ)
 
-run_main: all
+run_main: clean all
 	$(TARGET)
 
